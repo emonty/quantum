@@ -13,3 +13,6 @@ simplejson
 sqlalchemy
 webob
 webtest
+
+-e git+https://review.openstack.org/p/openstack/quantum-client#egg=quantum-client-dev
+
