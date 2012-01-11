@@ -24,7 +24,7 @@ from webtest import TestApp
 
 from quantum import wsgi
 from quantum.common import config
-from quantum.common import extensions
+from quantum.extensions import extensions
 import sys
 print sys.path
 from quantum.plugins.sample.SamplePlugin import QuantumEchoPlugin
